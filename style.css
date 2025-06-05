@@ -5,6 +5,7 @@
         }
         body{
             background-color: rgb(29, 29, 70);
+            background-color: rgb(42, 212, 221);
             color:white;
             font-family:'Poppins',sans-serif;
         }
@@ -72,7 +73,7 @@
         
         .rightSection img{
             width:80%;
-            border-radius: 10px;;
+            border-radius: 15px;;
             
         }
         .purple{
