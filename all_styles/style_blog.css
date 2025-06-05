@@ -1,14 +1,10 @@
-
-
-
 body {
  text-align: center;
 background-color: rgb(42, 212, 221);
-
 }
 h1{
     color: black;
 }
 p{
-    color: grey;
+    color: rgb(44, 12, 12);
 }
