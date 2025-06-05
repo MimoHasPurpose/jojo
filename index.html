@@ -5,159 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin:0;
-            padding:0;
-        }
-        body{
-            background-color: rgb(0,0,33);
-            color:white;
-            font-family:'Poppins',sans-serif;
-        }
-        nav{
-            display:flex;
-            justify-content:space-around;
-            align-items: center;
-            height:80px;
-            background-color:rgb(18,18,32);
-        }
-        nav ul{
-            display:flex;
-            justify-content:center;
-        }
-        nav ul li{
-            list-style: none;
-            margin:0 23px;
-        }
-        nav ul li a{
-            text-decoration: none;
-            color:white;
-        }
-        nav ul li a:hover{
-            color:rgb(153,153,226);
-            font-size: 1.07rem;
-
-        }
-        main hr{
-            border:0;
-            background: #9c97f1;
-            height:1.2px;
-            margin:60 px 84 px;
-        }
-        .left{
-            font-size:1.5rem;
-        }
-        .firstSection{
-            display:flex;
-            justify-content: space-around;
-            margin:80px 0;
-            align-items: center;
-
-        }
-        .firstSection>div{
-            width:30%;
-            
-        }
-        .leftSection{
-           
-            font-size:3rem;
-         
-          
-
-        }
-        .leftSection .buttons{
-            padding:50px 0;
-        }
-        .leftSection .btn{
-            padding:12px;
-            background:#1e2167;
-            color:white;
-            border:2px solid white;
-            border-radius: 6px;
-            font-size:20px;
-            cursor:pointer;
-
-        }
-        .rightSection img{
-            width:80%;
-           
-            
-        }
-        .purple{
-            color:blueviolet
-        }
-        .text-gray{
-            color:gray;
-        }
-        #element
-        {
-            color:rgb(170,107,228);
-        }
-        .secondSection{
-            max-width: 80vw;
-            margin: auto;
-            height:80vh;
-        }
-        .secondSection h1{
-            font-size: 1.9rem;
-        }
-        .secondSection .box{
-            background: white;
-            width:50vw;
-            height:2px;
-            margin: 56px 0;
-            display: flex;
-        }
-        .secondSection .vertical{
-            height:93px;
-            width:1px;
-            background-color: white;
-            margin:0 120px;
-        }
-        .image-top{
-            width:23px;
-            position: relative;
-            top:-32px;
-            left:-9px;
-        }
-        .vertical-title{
-            position: relative;
-            top:75px;
-            width:150px;
-
-        }
-        .vertical-desc{
-            position:relative;
-            top:86px;
-            color:gray;
-            width:150px;
-            font-size: 9px;;
-
-        }
-        footer{
-            background-color:#0e0e1a;
-           
-        }
-        .footer{
-
-            display:flex;
-            padding:23px 122px;
-            justify-content: space-evenly;
-        }
-        .footer ul{
-            list-style-type:none;
-
-        }
-         .footer >div{
-            width:233px;
-         }
-         footer .footer-rights{
-            text-align:center;
-            color:gray;
-            padding:12px 0;
-         }
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -166,6 +14,7 @@
             <div class="left">Sanjay's Portfolio</div>
             <div class="right">
                 <ul>
+                    <li a href="photos.html">Picss</li>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About</a></li>
                     <li><a href="blog_index.html">MYBLOG</a></li>
@@ -181,41 +30,57 @@
 
         <section class="firstSection">
             <div class="leftSection">
-              Hi,My Name is <span class="purple">Sanjay(mimo)</span>
-              <div>I am a student of
+              Hey there , i am  <span class="purple">Sanjay(mimo)</span>
+              <div>I study 
                
                 <span id="element">ML</span>
-                <div class="buttons">
-                    <a href="https://docs.google.com/document/d/1cQE5IAtot-5I48RaXzjkgQCx6We3E3JF_KXvgBWjdFY/edit?tab=t.0">
-                    <button class="btn">Download Resume</button>
-                    </a>
-                    <a href="https://github.com/Sanj-bot">
-                    <button class="btn">Visit Github</button>
-                    <a/>
-                </div>
+               
               </div>
+              I come from Jaipur, Rajasthan.
             </div>
             <div class="rightSection">
-                <img src="developer.jpg" alt="">
+                <img src="profile.jpg" alt="">
+            </div>
+            <div>
+                <h5>Short Intro:</h5>
+                My focus in ML/Deep Learning and MLops. I am currently exploring
+                computer vision and Reinforcement learning.
+                <br>
+                <br>
+                I am active on github and I write articles on deep learning.
+                <br>
+                <br>
+                Visit contacts, if u wnat to connect or work  on projects.
+
             </div>
         </section>
+
     
 
 
 
      
-           
+    <section class="firstSection">
+        <div class="leftSections">
+                
+        “The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.”
+― Friedrich Nietzsche
+    
+        </div>
+    
+    </section>       
     </main>
+
 
    
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
           strings: ['<i>Web Developer</i> ', 'ML Engineer','Competitive Coder'],
-          typeSpeed: 1000,
-          backSpeed: 1000,
-          backDelay: 1000,
-          startDelay: 1000,
+          typeSpeed: 100,
+          backSpeed: 40,
+          backDelay: 100,
+          startDelay: 100,
           loop:true
         });
       </script>
